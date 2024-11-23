@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        margin: 0%;
+        color: white;
+      }
+      .flexgrow {
+        background-color: #222222;
+        height: 100%;
+        padding: 40px;
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        font-size: 16px;
+        flex-wrap: wrap;padding: 2%;
+      }
+
+      .blue {
+        background-color: #00b6d1;
+        border-radius: 7px;
+        color: white;
+        transition: all 0.5s;
+        width: 40%;
+        height: 30px;
+      }
+      .blue:hover {
+        background-color: #0097a7;
+      }
+      .left {
+        width: 50%;
+        background-color: #535151;
+        border-radius: 15px;
+        padding: 10px;
+        display: grid;
+        padding: 20px;margin: 20px;
+      }
+
+      .right {
+        width: 30%;
+        background-color: #8F999C;
+        border-radius: 15px;
+        padding: 10px;
+        display: grid;
+        margin: 10px;padding: 20px;margin: 20px;
+      }
+
+      .flexgrow h3 {
+        font-size: 32px;
+      }
+
+      .leftimg2 {
+        width: 45%;
+        margin-left: auto;
+      }
+      .leftimg1 {
+        width: 10%;
+      }
+
+      .rightimg2{width: 0%;}
+      .right ul{font-size: 0px;}
+
+    </style>
+  </head>
+  <body>
+    <section class="flexgrow">
+      <div class="left">
+        <img
+          class="leftimg1 l1"
+          src="https://www.ultraedit.com/wp-content/uploads/2023/01/zip-icon.png"
+          alt=""
+        />
+        <h3 class="l2">Large File Handling</h3>
+        <p class="l3">
+          UltraEdit allows you to open, edit, and work with extremely large
+          files with ease.
+        </p>
+        <img
+          class="leftimg2 l4"
+          src="https://www.ultraedit.com/wp-content/uploads/2023/01/easily-large-file-2.png"
+          alt=""
+        />
+        <ul class="l5">
+          <li>Works out of the box. No settings and tweaking needed.</li>
+          <li>
+            Enhanced large file mode for extremely large files (4GB+ files)
+          </li>
+          <li>Works for large text files. log files, XML files, and more!</li>
+        </ul>
+        <button class="blue l5">Learn More</button>
+      </div>
+      <div class="right">
+        <img
+          class="rightimg1 r1"
+          src="https://www.ultraedit.com/wp-content/uploads/2023/01/image-3-1.png"
+          alt=""
+        />
+        <h3 class="r2">Security and compliance.</h3>
+        <p class="r3">
+          When it comes to software security and compliance, UltraEdit has got
+          you covered.
+        </p>
+        <img
+          class="rightimg2 r4"
+          src="https://www.ultraedit.com/wp-content/uploads/2023/01/Benefits-Features-Section-Security-Slab.png"
+          alt=""
+        />
+        <ul class="r5">
+          <li>Reduce your risk with our SAST and SCA hardened tools.</li>
+          <li>
+            Stress-free compliance with access to 24/7 support and technical
+            assistance.
+          </li>
+          <li>
+            Deliver on time and under budget with our simplified licensing.
+          </li>
+        </ul>
+        <button class="blue r6">Learn More</button>
+      </div>
+    </section>
+  </body>
+</html>
